@@ -4,7 +4,7 @@ pipeline {
 
     stages {
 
-        stage('STAGE 00'){
+        stage('One'){
 
             steps{
 
@@ -14,11 +14,11 @@ pipeline {
 
         }
 
-        stage('STAGE 01'){
+        stage('Two'){
 
             steps{
 
-                echo "Pipeline Usando Jenkinsfile"
+                echo "step2"
 
             }
 
