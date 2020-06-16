@@ -2,8 +2,6 @@ pipeline {
 
     agent any
 
- 
-
     stages {
 
         stage('STAGE 00'){
@@ -15,8 +13,6 @@ pipeline {
             }
 
         }
-
- 
 
         stage('STAGE 01'){
 
