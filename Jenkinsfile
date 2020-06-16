@@ -1,1 +1,5 @@
-copy C:\Users\220038449\Downloads\soap-ui* C:\Users\220038449\Desktop
+stage 'Checkout'
+ node('slave') {
+  deleteDir()
+  checkout scm
+ }
