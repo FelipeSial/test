@@ -11,7 +11,7 @@ pipeline {
                teps {
               sh """
                   set +x
-                  curl -H 'X-JFrog-Art-Api: ${env.devcloud}' ${artifactory_url}/PAQLY/Install_kits/emp33windows/eterra/e-terracomm.tgz -T /tmp/viper.tgz
+                  curl -H 'X-JFrog-Art-Api: ${env.ARTIFACTORY_API_KEY}' ${artifactory_url}/PAQLY/Install_kits/emp33windows/eterra/e-terracomm.tgz -T /tmp/viper.tgz
             }
         }
         
